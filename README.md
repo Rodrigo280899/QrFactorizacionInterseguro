@@ -6,7 +6,7 @@ Este proyecto resuelve el desafio tecnico solicitado, implementando una solucion
 
 ## Tecnologias utilizadas
 
--  API 1: C# (.NET 8 - ASP.NET Core Web API)
+-  API 1: C# (.NET 9 - ASP.NET Core Web API)
 -  API 2: Node.js (Express)
 -  Comunicacion entre APIs via HTTP
 -  Contenerizacion con Docker
