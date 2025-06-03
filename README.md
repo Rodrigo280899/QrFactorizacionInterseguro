@@ -24,8 +24,15 @@ Este proyecto resuelve el desafio tecnico solicitado, implementando una solucion
 codigo fuente en github
 gtihub: https://github.com/Rodrigo280899/QrFactorizacionInterseguro
 
-en la carpeta raiz donde esta el archivo docker-compose ejecutar:
-docker-compose up --build
+en la carpeta raiz donde esta el archivo docker-compose ejecutar lo siguiente:
+1° Para descargar las imagenes publicadas en docker hub:
+- docker-compose pull
+2° Para activar el docker con las imagenes publicadas:
+- docker-compose up -d
+
+El link de la vista es el siguiente (con el docker levantado):
+- http://localhost:8080/
+
 
 ## EndPoints
 
