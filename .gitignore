@@ -3,3 +3,19 @@
 ################################################################################
 
 /.vs
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/Debug/net9.0/qr-factorizacion-api-cs.AssemblyInfo.cs
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/Debug/net9.0/qr-factorizacion-api-cs.AssemblyInfoInputs.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/Debug/net9.0/qr-factorizacion-api-cs.assets.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/Debug/net9.0/qr-factorizacion-api-cs.GeneratedMSBuildEditorConfig.editorconfig
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/project.assets.json
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/project.nuget.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs/obj/qr-factorizacion-api-cs.csproj.nuget.dgspec.json
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/bin/Debug/net9.0/CoverletSourceRootsMapping_qr-factorizacion-api-cs.Tests
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/Debug/net9.0/qr-factorizacion-api-cs.Tests.AssemblyInfo.cs
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/Debug/net9.0/qr-factorizacion-api-cs.Tests.AssemblyInfoInputs.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/Debug/net9.0/qr-factorizacion-api-cs.Tests.assets.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/Debug/net9.0/qr-factorizacion-api-cs.Tests.csproj.AssemblyReference.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/Debug/net9.0/qr-factorizacion-api-cs.Tests.GeneratedMSBuildEditorConfig.editorconfig
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/project.assets.json
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/project.nuget.cache
+/qr-factorizacion-api-cs/qr-factorizacion-api-cs.Tests/obj/qr-factorizacion-api-cs.Tests.csproj.nuget.dgspec.json

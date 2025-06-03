@@ -1,25 +1,58 @@
-version: '3.8'
+# version: '3.8'
+
+# services:
+#   csharp-api:
+#     build: ./qr-factorizacion-api-cs/qr-factorizacion-api-cs
+#     container_name: qr-factorizacion-api-cs
+#     ports:
+#       - "5000:8080"
+
+#   node-api:
+#     build: ./qr-stats-api-node
+#     container_name: qr-stats-api-node
+#     ports:
+#       - "3000:3000"
+#     depends_on:
+#       - csharp-api
+
+#   frontend:
+#     build: ./qr-front
+#     container_name: qr-front
+#     ports:
+#       - "8080:80"
+#     depends_on:
+#       - csharp-api
+#       - node-api
 
 services:
   csharp-api:
-    build: ./qr-factorizacion-api-cs/qr-factorizacion-api-cs
+    image: rorolu28/is-csharp-api:latest
     container_name: qr-factorizacion-api-cs
     ports:
       - "5000:8080"
+    networks:
+      - qr-net
 
   node-api:
-    build: ./qr-stats-api-node
+    image: rorolu28/is-node-api:latest
     container_name: qr-stats-api-node
     ports:
       - "3000:3000"
     depends_on:
       - csharp-api
+    networks:
+      - qr-net
 
   frontend:
-    build: ./qr-front
+    image: rorolu28/is-frontend:latest
     container_name: qr-front
     ports:
       - "8080:80"
     depends_on:
       - csharp-api
       - node-api
+    networks:
+      - qr-net
+
+networks:
+  qr-net:
