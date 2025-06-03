@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\qr-factorizacion-api-cs.props" />
+</Project>
